@@ -66,7 +66,9 @@ export function TaxiPage() {
       let message = service.name.toLowerCase().includes('airport')
         ? `Hello! I found you on Go Visit Taghazout.\nI would like to book ${service.name} for ${service.price} MAD.\n\nPlease can you confirm availability:\n✅ Flight Number:\n✅ Arrival Day:\n✅ Arrival Time:\n\nThank you!`
         : `Hello! I found you on Go Visit Taghazout. I would like to book ${service.name} for ${service.price} MAD. Is it available?`;
-      window.open(`https://wa.me/${service.phone}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+      
+      // التعديل هنا لضمان العمل على iPhone
+      window.location.href = `https://wa.me/${service.phone}?text=${encodeURIComponent(message)}`;
     }
     setLoadingId(null);
   };
