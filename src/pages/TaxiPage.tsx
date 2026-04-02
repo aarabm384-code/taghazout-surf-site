@@ -24,18 +24,18 @@ interface Service {
 }
 
 const airportServices: Service[] = [
-  { id: 1, name: ' From Agadir Airport to taghazout  (Ismail)', price: 300, type: 'Private', pro: true, popular: true, rating: 4.9, reviews: 124, img: 'https://www.taxiagadirairport.com/sliders/slider%2002-768w.jpg', details: 'Private door-to-door transfer available 24/7, meet & greet included.', lastBooked: '2 hours ago', phone: "212611111111" },
-  { id: 2, name: ' From Taghazout to agadir Airport (Standard)', price: 300, type: 'Private', pro: false, rating: 4.8, reviews: 86, img: 'taghazout.jpg', details: 'Professional airport pickup with flight tracking and on-time guarantee.', lastBooked: '45 minutes ago', phone: "212622222222" },
-  { id: 3, name: 'Marrakech Airport or Any Area in Marrakech', price: 1100, type: 'Long Distance', pro: true, rating: 5.0, reviews: 42, img: 'marrakech.jpg', details: 'Comfortable long-distance ride to/from RAK with AC and water included.', lastBooked: '3 hours ago', phone: "212633333333" },
+  { id: 1, name: ' From Agadir Airport to taghazout  (Ismail)', price: 300, type: 'Private', pro: true, popular: true, rating: 4.9, reviews: 124, img: 'https://www.taxiagadirairport.com/sliders/slider%2002-768w.jpg', details: 'Private door-to-door transfer available 24/7, meet & greet included.', lastBooked: '2 hours ago', phone: "212600598885" },
+  { id: 2, name: ' From Taghazout to agadir Airport (Standard)', price: 300, type: 'Private', pro: false, rating: 4.8, reviews: 86, img: 'taghazout.jpg', details: 'Professional airport pickup with flight tracking and on-time guarantee.', lastBooked: '45 minutes ago', phone: "212600598885" },
+  { id: 3, name: 'Marrakech Airport or Any Area in Marrakech', price: 1100, type: 'Long Distance', pro: true, rating: 5.0, reviews: 42, img: 'marrakech.jpg', details: 'Comfortable long-distance ride to/from RAK with AC and water included.', lastBooked: '3 hours ago', phone: "212600598885" },
 ];
 
 const localServices: Service[] = [
-  { id: 4, name: 'Agadir Souk (Market)', price: 150, type: 'Day Trip', pro: false, rating: 4.7, reviews: 53, img: 'souk.jpg', details: 'Drop-off and pickup at the famous Agadir souk. Free time to shop and explore.', lastBooked: '1 hour ago', phone: "212644444444" },
-  { id: 5, name: 'Paradise Valley', price: 500, type: 'Excursion', pro: true, rating: 4.9, reviews: 91, img: 'pari.jpg', details: 'Scenic canyon trip with swimming in natural pools return incuded.', lastBooked: '30 minutes ago', phone: "212655555555" },
-  { id: 6, name: 'Imsouane Village ', price: 600, type: '2h drive', pro: true, rating: 4.9, reviews: 67, img: 'imss.jpg', details: 'Relax in the fishing village, enjoy the beach, and free time to explore at your own pace', lastBooked: '4 hours ago', phone: "212666666666" },
-  { id: 7, name: 'Timlalin', price: 200, type: 'Local', pro: false, rating: 4.6, reviews: 38, img: 'tim.jpg', details: 'Timlalin: Scenic coastal spot with sand dunes and dramatic rock formations, perfect for photos, short walks, and relaxing by the ocean return incuded', lastBooked: '20 minutes ago', phone: "212677777777" },
-  { id: 8, name: 'Essaouira Transfer', price: 1000, type: ' 2h30 drive', pro: true, rating: 5.0, reviews: 29, img: 'ess.jpg', details: 'Direct drop-off in the blue city with free time to explore the medina. Return not included.', lastBooked: '5 hours ago', phone: "212688888888" },
-  { id: 9, name: 'Crocoparc Agadir Visit', price: 60, type: 'Adventure', pro: true, rating: 4.8, reviews: 15, img: 'crocco.jpg', details: 'Visit the crocodile park with free time to explore the gardens and animals. return included', lastBooked: '5 hours ago', phone: "212699999999" },
+  { id: 4, name: 'Agadir Souk (Market)', price: 150, type: 'Day Trip', pro: false, rating: 4.7, reviews: 53, img: 'souk.jpg', details: 'Drop-off and pickup at the famous Agadir souk. Free time to shop and explore.', lastBooked: '1 hour ago', phone: "212600598885" },
+  { id: 5, name: 'Paradise Valley', price: 500, type: 'Excursion', pro: true, rating: 4.9, reviews: 91, img: 'pari.jpg', details: 'Scenic canyon trip with swimming in natural pools return incuded.', lastBooked: '30 minutes ago', phone: "212600598885" },
+  { id: 6, name: 'Imsouane Village ', price: 600, type: '2h drive', pro: true, rating: 4.9, reviews: 67, img: 'imss.jpg', details: 'Relax in the fishing village, enjoy the beach, and free time to explore at your own pace', lastBooked: '4 hours ago', phone: "212600598885" },
+  { id: 7, name: 'Timlalin', price: 200, type: 'Local', pro: false, rating: 4.6, reviews: 38, img: 'tim.jpg', details: 'Timlalin: Scenic coastal spot with sand dunes and dramatic rock formations, perfect for photos, short walks, and relaxing by the ocean return incuded', lastBooked: '20 minutes ago', phone: "212600598885" },
+  { id: 8, name: 'Essaouira Transfer', price: 1000, type: ' 2h30 drive', pro: true, rating: 5.0, reviews: 29, img: 'ess.jpg', details: 'Direct drop-off in the blue city with free time to explore the medina. Return not included.', lastBooked: '5 hours ago', phone: "212600598885" },
+  { id: 9, name: 'Crocoparc Agadir Visit', price: 60, type: 'Adventure', pro: true, rating: 4.8, reviews: 15, img: 'crocco.jpg', details: 'Visit the crocodile park with free time to explore the gardens and animals. return included', lastBooked: '5 hours ago', phone: "212600598885" },
 ];
 
 const useScrollReveal = () => {
