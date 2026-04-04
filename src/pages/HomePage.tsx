@@ -375,6 +375,6 @@ export const HomePage = () => {
         </div>
       </footer>
 
-    </div>wwww
+    </div>
   );
 };
