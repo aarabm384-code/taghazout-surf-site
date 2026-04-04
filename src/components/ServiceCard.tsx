@@ -39,7 +39,6 @@ export const ServiceCard = ({
           service_name: serviceName,
           provider_name: providerName,
           price: priceMAD,
-        
         });
     } catch (err) {
       console.error('Supabase error:', err);
