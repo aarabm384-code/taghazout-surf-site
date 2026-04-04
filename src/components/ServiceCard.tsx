@@ -39,9 +39,7 @@ export const ServiceCard = ({
           service_name: serviceName,
           provider_name: providerName,
           price: priceMAD,
-          status: 'pending',
-          source: 'website',
-          page_url: window.location.href,
+        
         });
     } catch (err) {
       console.error('Supabase error:', err);
