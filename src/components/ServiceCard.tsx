@@ -25,7 +25,7 @@ export const ServiceCard = ({
   duration,
   details,
   phoneNumber = '+212600000000',
-  image = "/images/default-surf.jpg",   // ← Safe local fallback
+  image = "/images/default-surf.jpg",
 }: ServiceCardProps) => {
   const message = generateWhatsAppMessage(serviceName, providerName);
   const cleanPhone = phoneNumber.replace(/\D/g, '');
@@ -39,11 +39,12 @@ export const ServiceCard = ({
           service_name: serviceName,
           provider_name: providerName,
           price: priceMAD,
-        });w
+        });
     } catch (err) {
       console.error('Supabase error:', err);
     }
 
+    // Open WhatsApp after trying to save to database
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -57,7 +58,7 @@ export const ServiceCard = ({
           alt={providerName}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           onError={(e) => {
-            e.currentTarget.src = "https://picsum.photos/800/520?random=1"; // safe public fallback
+            e.currentTarget.src = "https://picsum.photos/800/520?random=1";
           }}
         />
         
