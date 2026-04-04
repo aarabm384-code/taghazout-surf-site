@@ -34,8 +34,8 @@ const localServices: Service[] = [
   { id: 5, name: 'Paradise Valley', price: 500, type: 'Excursion', pro: true, rating: 4.9, reviews: 91, img: 'pari.jpg', details: 'Scenic canyon trip with swimming in natural pools return incuded.', lastBooked: '30 minutes ago', phone: "212600598885" },
   { id: 6, name: 'Imsouane Village ', price: 600, type: '2h drive', pro: true, rating: 4.9, reviews: 67, img: 'imss.jpg', details: 'Relax in the fishing village, enjoy the beach, and free time to explore at your own pace', lastBooked: '4 hours ago', phone: "212600598885" },
   { id: 7, name: 'Timlalin', price: 200, type: 'Local', pro: false, rating: 4.6, reviews: 38, img: 'tim.jpg', details: 'Timlalin: Scenic coastal spot with sand dunes and dramatic rock formations, perfect for photos, short walks, and relaxing by the ocean return incuded', lastBooked: '20 minutes ago', phone: "212600598885" },
-  { id: 8, name: 'Essaouira Transfer', price: 1000, type: ' 2h30 drive', pro: true, rating: 5.0, reviews: 29, img: 'ess.jpg', details: 'Direct drop-off in the blue city with free time to explore the medina. Return not included.', lastBooked: '5 hours ago', phone: "212600598885" },
-  { id: 9, name: 'Crocoparc Agadir Visit', price: 60, type: 'Adventure', pro: true, rating: 4.8, reviews: 15, img: 'crocco.jpg', details: 'Visit the crocodile park with free time to explore the gardens and animals. return included', lastBooked: '5 hours ago', phone: "212600598885" },
+  { id: 8, name: 'Essaouira Transfer', price: 700, type: ' 2h30 drive', pro: true, rating: 5.0, reviews: 29, img: 'ess.jpg', details: 'Direct drop-off in the blue city with free time to explore the medina. Return not included.', lastBooked: '5 hours ago', phone: "212600598885" },
+  { id: 9, name: 'Crocoparc Agadir Visit', price: 600, type: 'Adventure', pro: true, rating: 4.8, reviews: 15, img: 'crocco.jpg', details: 'Visit the crocodile park with free time to explore the gardens and animals. return included', lastBooked: '5 hours ago', phone: "212600598885" },
 ];
 
 const useScrollReveal = () => {

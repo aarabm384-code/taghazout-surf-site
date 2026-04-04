@@ -35,24 +35,16 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
-          {/* Logo */}
+          {/* Logo - REPLACED TEXT WITH logo.jpg */}
           <Link
             to="/"
-            className="active:scale-95 select-none transition-all"
+            className="active:scale-95 select-none transition-all flex items-center"
           >
-            <div
-              style={{
-                fontFamily: "'Arial Black', 'Helvetica Neue', sans-serif",
-                fontWeight: 900,
-                textTransform: 'uppercase',
-                lineHeight: 0.9,
-                letterSpacing: '-0.5px',
-              }}
-            >
-              <div style={{ fontSize: '16px', color: '#2563EB' }}>GO</div>
-              <div style={{ fontSize: '16px', color: '#111111' }}>VISIT</div>
-              <div style={{ fontSize: '16px', color: '#111111' }}>TAGHAZOUT</div>
-            </div>
+           <img 
+  src="/logo.svg" 
+  alt="Go Visit Taghazout" 
+  className="h-19 md:h-19 w-auto object-contain py-1" 
+/>
           </Link>
 
           {/* Desktop Navigation */}
