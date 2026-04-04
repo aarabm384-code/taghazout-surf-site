@@ -9,7 +9,6 @@ interface ServiceCardProps {
   priceEUR: number;
   priceMAD: number;
   isTrusted?: boolean;
-  duration?: string;
   details?: string;
   phoneNumber?: string;
   image?: string;
@@ -21,7 +20,6 @@ export const ServiceCard = ({
   priceEUR,
   priceMAD,
   isTrusted = false,
-  duration,
   details,
   phoneNumber = '+212600000000',
   image = "/images/default-surf.jpg",
@@ -70,6 +68,12 @@ export const ServiceCard = ({
           <h3 className="text-xl font-bold text-gray-900">{providerName}</h3>
           <p className="text-gray-600 mt-1">{serviceName}</p>
         </div>
+
+        {details && (
+          <div className="mb-6">
+            <span className="text-xs text-gray-500">{details}</span>
+          </div>
+        )}
 
         <div className="flex items-baseline mb-7">
           <span className="text-3xl font-black text-gray-900">€{priceEUR}</span>
