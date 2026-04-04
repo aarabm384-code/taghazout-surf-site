@@ -46,7 +46,6 @@ export const Navbar = () => {
   className="h-19 md:h-19 w-auto object-contain py-1" 
 />
           </Link>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
             {navItems.map((item) => (
