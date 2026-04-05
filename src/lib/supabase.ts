@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = "https://koofjrlzfelfmkbgzfpn.supabase.co";
+const supabaseAnonKey = "sb_publishable_Dc7Gkm1he8D3_SsqIszvug_lSBGT0Jd";
 
-// تأكد بلي كلمة export مكتوبة قبل const supabase
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
