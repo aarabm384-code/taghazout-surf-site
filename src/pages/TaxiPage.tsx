@@ -24,8 +24,8 @@ interface Service {
 }
 
 const airportServices: Service[] = [
-  { id: 1, name: ' From Agadir Airport to taghazout  (Ismail)', price: 300, type: 'Private', pro: true, popular: true, rating: 4.9, reviews: 124, img: 'https://www.taxiagadirairport.com/sliders/slider%2002-768w.jpg', details: 'Private door-to-door transfer available 24/7, meet & greet included.', lastBooked: '2 hours ago', phone: "212600598885" },
-  { id: 2, name: ' From Taghazout to agadir Airport (Standard)', price: 300, type: 'Private', pro: false, rating: 4.8, reviews: 86, img: 'taghazout.jpg', details: 'Professional airport pickup with flight tracking and on-time guarantee.', lastBooked: '45 minutes ago', phone: "212600598885" },
+  { id: 1, name: ' From Agadir Airport to taghazout  (Ahmad)', price: 300, type: 'Private', pro: true, popular: true, rating: 4.9, reviews: 124, img: 'https://www.taxiagadirairport.com/sliders/slider%2002-768w.jpg', details: 'Private door-to-door transfer available 24/7, meet & greet included.', lastBooked: '2 hours ago', phone: "212600598885" },
+  { id: 2, name: ' From Taghazout to agadir Airport (Said)', price: 300, type: 'Private', pro: false, rating: 4.8, reviews: 86, img: 'taghazout.jpg', details: 'Professional airport pickup with flight tracking and on-time guarantee.', lastBooked: '45 minutes ago', phone: "212600598885" },
   { id: 3, name: 'Marrakech Airport or Any Area in Marrakech', price: 1100, type: 'Long Distance', pro: true, rating: 5.0, reviews: 42, img: 'marrakech.jpg', details: 'Comfortable long-distance ride to/from RAK with AC and water included.', lastBooked: '3 hours ago', phone: "212600598885" },
 ];
 
@@ -64,7 +64,7 @@ export function TaxiPage() {
     } catch (err) { console.error(err); }
     finally {
       let message = service.name.toLowerCase().includes('airport')
-        ? `Hello! I found you on Go Visit Taghazout.\nI would like to book ${service.name} for ${service.price} MAD.\n\nPlease can you confirm availability:\n✅ Flight Number:\n✅ Arrival Day:\n✅ Arrival Time:\n\nThank you!`
+        ? `Hello! I found you on Go Visit Taghazout.\nI would like to book ${service.name} for ${service.price} MAD.\n\nPlease can you confirm availability: \n✅ Full Name: \n✅ Flight Number:\n✅ Arrival Day:\n✅ Arrival Time:\n\nThank you!`
         : `Hello! I found you on Go Visit Taghazout. I would like to book ${service.name} for ${service.price} MAD. Is it available?`;
       
       // التعديل هنا لضمان العمل على iPhone

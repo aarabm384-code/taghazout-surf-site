@@ -6,8 +6,7 @@ const navItems = [
   { href: '/', label: 'Home' },
   { href: '/taxi', label: 'Taxi' },
   { href: '/surf', label: 'Surf' },
-  { href: '/trips', label: 'Trips' },
-];
+  { href: '/trips', label: 'Trips' },];
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

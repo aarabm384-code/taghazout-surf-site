@@ -55,6 +55,7 @@ ${$}`}class Ke extends Error{constructor({message:a,code:r,cause:l,name:u}){var 
 I would like to book ${d.name} for ${d.price} MAD.
 
 Please can you confirm availability:
+✅ Full Name:
 ✅ Flight Number:
 ✅ Arrival Day:
 ✅ Arrival Time:

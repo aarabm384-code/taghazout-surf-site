@@ -60,9 +60,9 @@ export const SurfPage = () => {
   }, []);
 
   const instructors = [
-    { id: 'i1', name: "Momo", specialty: "Beginner Whisperer", bio: "10+ years teaching first-timers. Patient, fun, and fluent in 4 languages.", rating: 5.0, image: "/momo.jpg", languages: ["English", "French", "Arabic", "Spanish"], experience: "10+ years", priceEUR: 25, priceMAD: 250, tag: "Best for Newbies", popular: true, phone: "212610779280" },
-    { id: 'i2', name: "Abdou", specialty: "Wave Technician", bio: "Ex-competitor turned coach. Perfect for intermediates looking to level up.", rating: 4.9, image: "/abdo.jpg", languages: ["English", "French", "Arabic"], experience: "8 years", priceEUR: 30, priceMAD: 300, tag: "Progress Fast", phone: "212610779280" },
-    { id: 'i3', name: "Lahsen", specialty: "Advanced Shredder", bio: "Grew up surfing Anchor Point. Teaches power turns & tube rides.", rating: 5.0, image: "/zilla.jpg", languages: ["English", "Arabic", "French"], experience: "12 years", priceEUR: 35, priceMAD: 350, tag: "Pro-Level Coaching", phone: "212610779280" }
+    { id: 'i1', name: "Momo", specialty: "Beginner Whisperer", bio: "10+ years teaching first-timers. Patient, fun, and fluent in 4 languages.", rating: 5.0, image: "/momo.jpg", languages: ["English", "French", "Arabic", "Spanish"], experience: "10+ years", priceEUR: 25, priceMAD: 250, tag: "Best for Newbies", popular: true, phone: "212642257347" },
+    { id: 'i2', name: "Abdou", specialty: "Wave Technician", bio: "Ex-competitor turned coach. Perfect for intermediates looking to level up.", rating: 4.9, image: "/abdo.jpg", languages: ["English", "French", "Arabic"], experience: "8 years", priceEUR: 30, priceMAD: 300, tag: "Progress Fast", phone: "212642257347" },
+    { id: 'i3', name: "Lahsen", specialty: "Advanced Shredder", bio: "Grew up surfing Anchor Point. Teaches power turns & tube rides.", rating: 5.0, image: "/zilla.jpg", languages: ["English", "Arabic", "French"], experience: "12 years", priceEUR: 35, priceMAD: 350, tag: "Pro-Level Coaching", phone: "212642257347" }
   ];
 
   const features = [

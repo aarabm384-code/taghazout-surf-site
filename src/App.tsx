@@ -6,8 +6,6 @@ import { TaxiPage } from './pages/TaxiPage';
 import { SurfPage } from './pages/SurfPage';
 import { TripsPage } from './pages/TripsPage';
 import { AdminPage } from './pages/AdminPage';
-
-// هاد الـ Component هو "العساس" اللي كيرجعك لفوق فاش كتمشي لصفحة جديدة
 function ScrollToTop() {
   const { pathname } = useLocation();
 

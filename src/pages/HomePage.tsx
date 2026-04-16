@@ -63,7 +63,41 @@ export const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 overflow-x-hidden">
-      
+     {/* --- Ultra Compact Live Report --- */}
+<section className="px-0 pt-0 pb-0 max-w-4xl mx-auto -mb-12">        <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+          
+          {/* Header بسيط بزاف */}
+          <div className="bg-blue-600 px-3 py-1.5 text-white flex justify-between items-center">
+            <div className="flex items-center gap-1.5 font-bold uppercase text-[9px] tracking-tight">
+              <Waves size={12} />
+              Taghazout Live
+            </div>
+            <div className="text-[9px] font-medium bg-blue-500 px-2 py-0.5 rounded-full">
+              22°C ☀️
+            </div>
+          </div>
+          
+          {/* ارتفاع صغير جداً 180px */}
+          <div className="w-full h-[180px] bg-gray-50">
+            <iframe 
+              width="100%" 
+              height="100%" 
+              src="https://embed.windy.com/embed2.html?lat=30.548&lon=-9.708&detailLat=30.548&detailLon=-9.708&width=650&height=180&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=false&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" 
+              frameBorder="0"
+              title="Taghazout Weather"
+            ></iframe>
+          </div>
+
+          {/* زر واتساب في سطر واحد خفيف */}
+          <a 
+            href="https://wa.me/212619579732" 
+            className="flex items-center justify-center gap-2 w-full py-2 bg-blue-50 text-blue-700 text-[10px] font-bold hover:bg-blue-100 transition-colors border-t border-blue-100"
+          >
+            <MessageCircle size={12} className="text-green-600" />
+Book a Surf Lesson          </a>
+        </div>
+      </section>
+        
       {/* MODALS FOR PRIVACY AND TERMS */}
       {showModal && (
         <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4" onClick={() => setShowModal(null)}>
@@ -112,25 +146,25 @@ export const HomePage = () => {
               <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500">Official Local Guide • Updated June 2026</span>
             </div>
 
-            {/* PROFESSIONAL TITLE - OPTIMIZED FOR PHONE */}
-            <div className="space-y-1 sm:space-y-2">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-none">
-                Taghazout's Official
-              </h1>
-              
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-x-3 gap-y-1">
-                <span className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-blue-600">
-                  Go
-                </span>
-                <span className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter">
-                  Visit
-                </span>
-              </div>
+           {/* PROFESSIONAL TITLE - OPTIMIZED FOR PHONE */}
+<div className="space-y-2">
+  <h1 className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-gray-900 leading-none">
+    Taghazout's Official
+  </h1>
 
-              <h1 className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-blue-600 leading-none">
-                Taghazout
-              </h1>
-            </div>
+  <div className="flex items-center justify-center gap-2">
+    <span className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-blue-600">
+      Go
+    </span>
+    <span className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-gray-900">
+      Visit
+    </span>
+  </div>
+
+  <h1 className="text-[42px] sm:text-6xl md:text-7xl font-extrabold tracking-tighter text-blue-600 leading-none">
+    Taghazout
+  </h1>
+</div>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mt-10 mb-12 leading-relaxed font-normal px-4">
               Your premium gateway to the best Taxis, Surf Lessons, and Day Trips in Taghazout. 
