@@ -64,7 +64,9 @@ export const HomePage = () => {
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 overflow-x-hidden">
      {/* --- Ultra Compact Live Report --- */}
-<section className="px-0 pt-0 pb-0 max-w-4xl mx-auto -mb-12">        <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+<section className="px-0 pt-0 pb-0 max-w-4xl mx-auto -mb-12">  
+  
+<div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
           
           {/* Header بسيط بزاف */}
           <div className="bg-blue-600 px-3 py-1.5 text-white flex justify-between items-center">
