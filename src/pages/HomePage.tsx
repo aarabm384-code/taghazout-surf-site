@@ -26,7 +26,15 @@ const categories = [
     icon: MapPin,
     color: 'bg-green-50 text-green-600',
     gradient: 'from-green-50 to-green-100'
-  }
+  },
+  {
+  href: '/accommodation',
+  title: 'Stays',
+  description: 'Best apartments & hotels in Taghazout',
+  icon: Shield, // تقدر تخليها Shield أو تبدلها بـ 'Home' إلا كنتي داير ليه Import
+  color: 'bg-green-50 text-green-600',
+  gradient: 'from-green-50 to-green-100'
+}
 ];
 
 const features = [
